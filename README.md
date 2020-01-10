@@ -4,7 +4,7 @@ Item Delete : Swipe and delete items. (L->R or R->L)
 Item In Button : There is a button event in the item. (Just ToastMessage)
 
 
-#MainActivity
+#MainActivity.java
 ```
 public class MainActivity extends AppCompatActivity {
     /**  mRecyclerView : Used RecyclerView
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 ...
 ```
 
-#RecyclerviewAdapter
+#RecyclerviewAdapter.java
 ```
 /** RecyclerView ListAdapter*/
 public class RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder> {
@@ -35,7 +35,7 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapte
 
 
 
-#RecyclerviewItem
+#RecyclerviewItem.java
 ```
 /** RecyclerView ListItem */
 public class RecyclerviewItem {
